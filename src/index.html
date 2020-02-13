@@ -7,8 +7,35 @@
 </head>
 <body>
     
-    
+    <form action="">
+        <input type="hidden" id="entryId" value="">
+        <fieldset>
+            <label for="pointOfInterest">Point of Interest</label>
+            <input type="text" name="pointOfInterest" id="pointOfInterest">
+        </fieldset>
+        <fieldset>
+            <label for="description">Description</label>
+            <input type="text" name="description" id="description">
+        </fieldset>
+        <fieldset>
+            <label for="cost">Cost</label>
+            <input type="text" name="cost" id="cost">
+        </fieldset>
+        <fieldset>
+            <label for="places">Places</label>
+            <select name="place" id="place">
+                <option value="1">Italy</option>
+                <option value="2">Switzerland</option>
+                <option value="3">France</option>
+            </select>
+        </fieldset>
+    </form>
+    <button id="submit-button">Record Entry</button>
 
-    <script type="module" src="main.js"></script>
+    <article id="container">
+
+    </article>
+
+    <script type="module" src="scripts/main.js"></script>
 </body>
 </html>
