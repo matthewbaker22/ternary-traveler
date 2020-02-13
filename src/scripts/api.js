@@ -15,7 +15,7 @@ export default {
         })
     },
     updateEntry(entry) {
-        return fetch(`${Url}/${entry.id}`, {
+        return fetch(`${Url}/interests/${entry.id}`, {
             method: "PUT",
             headers: {
                 "Content-type": "application/json"
@@ -24,7 +24,7 @@ export default {
         })
     },
     deleteEntry(entryId) {
-        return fetch(`${Url}/${entryId}`, {
+        return fetch(`${Url}/interests/${entryId}`, {
             method: "DELETE"
         })
     }

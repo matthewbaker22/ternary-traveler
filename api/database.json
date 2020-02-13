@@ -18,12 +18,20 @@
   ],
   "interests": [
     {
-      "pointOfInterest": "Paris",
-      "description": "Eiffel Tower",
-      "cost": 150,
-      "placeId": 3,
+      "pointOfInterest": "test1",
+      "description": "test1",
+      "cost": 50,
+      "placeId": 1,
       "review": "",
       "id": 1
+    },
+    {
+      "pointOfInterest": "test2",
+      "description": "test2",
+      "cost": 75,
+      "placeId": 2,
+      "review": "",
+      "id": 2
     }
   ]
 }

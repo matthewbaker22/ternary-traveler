@@ -7,7 +7,7 @@
 </head>
 <body>
     
-    <form action="">
+    <form action="" id="main-form">
         <input type="hidden" id="entryId" value="">
         <fieldset>
             <label for="pointOfInterest">Point of Interest</label>
@@ -32,6 +32,17 @@
     </form>
     <button id="submit-button">Record Entry</button>
 
+    <form action="">
+        <fieldset>
+            <label for="review">Update Review</label>
+            <input type="text" name="review" id="review">
+        </fieldset>
+        <fieldset>
+            <label for="costUpdate">Update Cost</label>
+            <input type="text" name="costUpdate" id="costUpdate">
+        </fieldset>
+    </form>
+    <button id="update-button">Update Entry</button>
     <article id="container">
 
     </article>
